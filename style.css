@@ -92,13 +92,17 @@
     
 }
 
+.header_box {
+    display: flex;
+    background: plum;
+    border: 4px solid black;
+    justify-content: center;
+}
 
-
-
-
-
-
-
+.header_text_item {
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
 
 
 
