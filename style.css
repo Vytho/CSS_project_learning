@@ -231,9 +231,20 @@
 }
 
 
+.copyright_box {
+    display: flex;
+    background: plum;
+    border: 4px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
 
-
+.copyright_item {
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
 
 
 
