@@ -1,8 +1,18 @@
 
+/*
+* {
+    border: 2px solid black;
+}
+*/
+
+
+
+
+
 .menu_box {
     display: flex;
-    background: plum;
-    border: 4px solid indigo;
+    background: rgb(31,41,55);
+
     height: 120px;
     justify-content: space-around;
 }
@@ -15,28 +25,26 @@
 
 .logo_container {
     display: flex;
-    background: plum;
-    border: 4px solid indigo;
+    background: rgb(31,41,55);
     align-items: center;
+    color: white;
 }
 
 .menu_container {
     display: flex;
     width: 800px;
-    background: plum;
-    border: 4px solid indigo;
+    background: rgb(31,41,55);
     justify-content: center;
    
 
 }
   
 .menu_item {
-
+    color: white;
     text-align: center;
     width: 120px;
     height: 50px;
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(31,41,55);
     margin: 5px;
 }
 
@@ -47,8 +55,8 @@
     display: flex;
     height: 400px;
     flex-wrap: wrap;
-    background: plum;
-    border: 4px solid indigo;
+    background: rgb(31,41,55);
+ 
     justify-content: center;
 }
 
@@ -65,27 +73,26 @@
     flex-direction: column;
     width: 500px;
     justify-content: center;
-    background: plum;
-    border: 4px solid black;
+    background: rgb(31,41,55);
+
 
 
 }
 
 
 .intro_text_item_2 {
-
+    color: white;
     flex-grow: 0.05;
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(31,41,55);
     margin: 0px;
     
 }
 
 .intro_text_item_3 {
-
+    color: white;
     flex-grow: 0.01;
     border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(59, 130, 246);
     margin: 0px;
     width: 70px;
     
@@ -93,22 +100,20 @@
 
 .header_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: white;
     justify-content: center;
 }
 
 .header_text_item {
-    border: 4px solid darkslategray;
-    background: skyblue;
+
+    background: white;
 }
 
 
 
 .boxes_box{
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: white;
     height: 200px;
     justify-content: center;
     align-items: flex-end;
@@ -119,7 +124,7 @@
 
 .boxes_item{
     border: 4px solid darkslategray;
-    background: skyblue;
+    background: white;
     width: 120px;
     height: 120px;
     margin: 15px;
@@ -129,17 +134,14 @@
 
 .boxes_desc_box{
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: white;
     justify-content: center;
     align-items: flex-start;
 }
 
 
 .boxes_desc_item{
-
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: white;
     width: 120px;
     height: 60px;
     margin: 0px;
@@ -156,8 +158,7 @@
 
 .quote_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: rgb(229, 231, 235);
     flex-direction: column;
     height: 450px;
     align-items: center;
@@ -167,8 +168,7 @@
 
 .saruman_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: rgb(229, 231, 235);
     width: 500px;
     margin: 0px;
     justify-content: flex-end;
@@ -176,16 +176,14 @@
 }
 
 .quote_item {
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(229, 231, 235);
     width: 500px;
     height: 250px;
     margin: 0px;
 }
 
 .saruman_item {
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(229, 231, 235);
     width: 120px;
     height: 30px;
     margin: 0px;
@@ -195,8 +193,7 @@
 
 .contact_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: white;
     justify-content: center;
     height: 350px;
     align-items: center;
@@ -205,8 +202,7 @@
 
 .contact_inner_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: white;
     height: 160px;
     width: 900px;
     justify-content: center;
@@ -214,8 +210,8 @@
 }
 
 .contact_item_1 {
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(59, 130, 246);
+    color: white;
     width: 600px;
     height: 100px;
     margin: 20px;
@@ -224,8 +220,8 @@
 
 
 .contact_item_2 {
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(59, 130, 246);
+    color: white;
     width: 120px;
     height: 40px;
 }
@@ -233,8 +229,7 @@
 
 .copyright_box {
     display: flex;
-    background: plum;
-    border: 4px solid black;
+    background: rgb(31,41,55);
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -242,8 +237,8 @@
 
 
 .copyright_item {
-    border: 4px solid darkslategray;
-    background: skyblue;
+    background: rgb(31,41,55);
+    color: white;
 }
 
 
