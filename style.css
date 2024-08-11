@@ -154,6 +154,44 @@
 
 
 
+.quote_box {
+    display: flex;
+    background: plum;
+    border: 4px solid black;
+    flex-direction: column;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.saruman_box {
+    display: flex;
+    background: plum;
+    border: 4px solid black;
+    width: 500px;
+    margin: 0px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.quote_item {
+    border: 4px solid darkslategray;
+    background: skyblue;
+    width: 500px;
+    height: 250px;
+    margin: 0px;
+}
+
+.saruman_item {
+    border: 4px solid darkslategray;
+    background: skyblue;
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+}
+
+
 
 
 
