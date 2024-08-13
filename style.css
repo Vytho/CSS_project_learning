@@ -8,7 +8,6 @@
 
 
 
-
 .menu_box {
     display: flex;
     background: rgb(31,41,55);
@@ -18,7 +17,10 @@
 }
 
 
-
+h2 {
+    color: white;
+    
+}
 
 
 
@@ -46,6 +48,8 @@
     height: 50px;
     background: rgb(31,41,55);
     margin: 5px;
+    border: 3px solid darkslategray;
+    border-radius: 10px;
 }
 
 
@@ -94,7 +98,9 @@
     border: 4px solid darkslategray;
     background: rgb(59, 130, 246);
     margin: 0px;
-    width: 70px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
     
 }
 
@@ -102,6 +108,12 @@
     display: flex;
     background: white;
     justify-content: center;
+    align-items: flex-end;
+    height: 130px;
+}
+
+h1 {
+    margin: 0px;
 }
 
 .header_text_item {
@@ -127,7 +139,8 @@
     background: white;
     width: 120px;
     height: 120px;
-    margin: 15px;
+    margin: 0px;
+    border-radius: 10px;
 
 
 }
@@ -137,6 +150,7 @@
     background: white;
     justify-content: center;
     align-items: flex-start;
+    height: 130px;
 }
 
 
@@ -154,13 +168,17 @@
 
 }
 
+.division_item_up {
+    width: 25px;
+    height: 120px;
+}
 
 
 .quote_box {
     display: flex;
     background: rgb(229, 231, 235);
     flex-direction: column;
-    height: 450px;
+    height: 350px;
     align-items: center;
     justify-content: center;
     
@@ -178,7 +196,7 @@
 .quote_item {
     background: rgb(229, 231, 235);
     width: 500px;
-    height: 250px;
+    height: 150px;
     margin: 0px;
 }
 
@@ -215,6 +233,7 @@
     width: 600px;
     height: 100px;
     margin: 20px;
+    border-radius: 10px;
 
 }
 
@@ -224,6 +243,7 @@
     color: white;
     width: 120px;
     height: 40px;
+    border-radius: 10px;
 }
 
 
