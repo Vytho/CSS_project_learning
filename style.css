@@ -12,8 +12,6 @@
 
 
 
-
-
 .menu_box {
     display: flex;
     background: rgb(31,41,55);
@@ -98,15 +96,24 @@ h2 {
     
 }
 
+
+
 .intro_text_item_3 {
     color: white;
     flex-grow: 0.01;
     border: 4px solid darkslategray;
     background: rgb(59, 130, 246);
     margin: 0px;
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     border-radius: 10px;
+    text-decoration: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
     
 }
 
