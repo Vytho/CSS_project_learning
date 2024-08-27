@@ -1,4 +1,11 @@
 
+/*
+
+* {
+    border: 1px solid black;
+}
+*/
+
 .welcome_header {
     display: flex;
     height: 300px;
@@ -7,4 +14,34 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.post_box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.post_item_box {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 30px;
+}
+
+.post_picture_item {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.post_header_item {
+    height: 30px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 0%;
+}
+
+.post_text_item {
+    height: 50px;
+    margin: 0px;
 }
