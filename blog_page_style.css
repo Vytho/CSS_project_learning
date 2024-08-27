@@ -1,6 +1,6 @@
 
-/*
 
+/*
 * {
     border: 1px solid black;
 }
@@ -8,6 +8,7 @@
 
 .welcome_header {
     display: flex;
+    flex-direction: column;
     height: 300px;
     flex-wrap: wrap;
     background: rgb(31,41,55);
