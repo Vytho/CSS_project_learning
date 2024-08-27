@@ -1,10 +1,10 @@
 
 /*
 * {
-    border: 2px solid black;
+    border: 1px solid black;
 }
-*/
 
+*/
 .text_center {
     text-align: center;
 }
@@ -250,23 +250,37 @@ h1 {
 }
 
 .contact_item_1 {
+    display: flex;
     background: rgb(59, 130, 246);
     color: white;
-    width: 600px;
-    height: 100px;
+    width: 650px;
+    height: 250px;
     margin: 20px;
     border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
 }
 
+.media_box {
+    display: flex;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 
-.contact_item_2 {
-    background: rgb(59, 130, 246);
-    color: white;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
 }
+
+.media_image {
+    width: 50px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
 
 
 .copyright_box {
