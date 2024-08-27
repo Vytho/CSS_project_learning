@@ -1,0 +1,10 @@
+
+.welcome_header {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    background: rgb(31,41,55);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
