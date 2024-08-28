@@ -3,8 +3,8 @@
 * {
     border: 1px solid black;
 }
-
 */
+
 .text_center {
     text-align: center;
 }
@@ -268,14 +268,19 @@ h1 {
     height: 50px;
     padding-bottom: 10px;
     padding-left: 10px;
+    align-items: center;
 
 }
 
 .media_image {
-    width: 50px;
-    padding-right: 20px;
+    width: 30px;
+    height: 30px;
+    background: white;
 }
 
+.media_text {
+    padding-left: 20px;
+}
 
 
 
