@@ -1,10 +1,23 @@
 
 
-/*
+
 * {
     border: 1px solid black;
 }
-*/
+
+
+.division_block {
+    width: 600px;
+    height: 100px;
+}
+
+.link_size {
+    width: 600px;
+    
+    text-decoration: none;
+}
+
+
 
 .welcome_header {
     display: flex;
@@ -26,7 +39,7 @@
 .post_item_box {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 550px;
     margin: 30px;
 }
 
