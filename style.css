@@ -33,6 +33,7 @@ h2 {
     display: flex;
     background: rgb(31,41,55);
     align-items: center;
+    justify-content: center;
     color: white;
 }
 
